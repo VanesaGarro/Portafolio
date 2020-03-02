@@ -104,7 +104,7 @@ const About = props => {
     React.createElement("p", { className: "separator" })),
 
     React.createElement("div", { className: "desc full" },
-    React.createElement("img" ,{className:"perfil" , src:'/img/vanesa.jpg'}),
+    React.createElement("img" ,{className:"perfil" , src:'../img/vanesa.jpg'}),
     React.createElement("h4", { className: "subtitle" }, "Mi nombre es Vanesa."),
     React.createElement("p", null, "Soy front-end developer con background en análisis de datos, apasionada por el código y por los animales. Desde muy pequeña he sentido mucho interés y curiosidad por la tecnología, me llamaba la atención saber sobre el proceso de creación de mis páginas web favoritas, es por ello que decidí estudiar programación porque me apasionan los retos y amo solucionar problemas creando productos digitales.")),
 
@@ -119,14 +119,14 @@ const About = props => {
 
     React.createElement("div", { className: "desc" },
     React.createElement("h4", { className: "subtitle" }, "Habilidades Técnicas"),
-    React.createElement("img" ,{className:"iconos" , src:'/img/nodejs.png'}),
-    React.createElement("img" ,{className:"iconos", src:'/img/css.png'}),
-    React.createElement("img" ,{className:"iconos", src:'/img/html-5.png'}),
-    React.createElement("img" ,{className:"iconos", src:'/img/sql.png'}),
-    React.createElement("img" ,{className:"iconos",src:'/img/java.png'}),
-    React.createElement("img" ,{className:"iconos", src:'/img/reaccionar.png'}),
-    React.createElement("img" ,{className:"iconos", src:'/img/javascript.png'}),
-    React.createElement("img" ,{className:"iconos", src:'/img/git.png'})),
+    React.createElement("img" ,{className:"iconos" , src:'../img/nodejs.png'}),
+    React.createElement("img" ,{className:"iconos", src:'../img/css.png'}),
+    React.createElement("img" ,{className:"iconos", src:'../img/html-5.png'}),
+    React.createElement("img" ,{className:"iconos", src:'../img/sql.png'}),
+    React.createElement("img" ,{className:"iconos",src:'../img/java.png'}),
+    React.createElement("img" ,{className:"iconos", src:'../img/reaccionar.png'}),
+    React.createElement("img" ,{className:"iconos", src:'../img/javascript.png'}),
+    React.createElement("img" ,{className:"iconos", src:'../img/git.png'})),
 
 
 
@@ -215,7 +215,7 @@ const Projects = props => {
     React.createElement("div", { className: "projects-wrapper" },
     React.createElement(Project, {
       title: "Data Lovers - Harry Potter",
-      img: '/img/harrypotter.png',
+      img: '../img/harrypotter.png',
       tech: "js css html",
       link: "",
       repo: "https://github.com/VanesaGarro/LIM011-data-lovers" },
@@ -230,7 +230,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Red Social - My FitnesSpace.",
-      img: '/img/fitnesSpace.png',
+      img: '../img/fitnesSpace.png',
       tech: "js firebase css html",
       link: "https://vanesagarro.github.io/LIM011-fe-social-network/src/",
       repo: "https://github.com/VanesaGarro/LIM011-fe-social-network" },
@@ -245,7 +245,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Md-Links.",
-      img:'/img/md.png',
+      img:'../img/md.png',
       tech: "js node",
       link: "https://vanesaGarro-personal-library.glitch.me/",
       repo: "https://github.com/vanesaGarro/fcc-personal-library" },
