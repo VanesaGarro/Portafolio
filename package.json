@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-page",
+  "version": "1.0.0",
+  "description": "_A Pen created at CodePen.io. Original URL: [https://codepen.io/yagoestevez/pen/oapQEJ](https://codepen.io/yagoestevez/pen/oapQEJ).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  },
+  "dependencies": {
+    "react-scripts": "^3.4.0"
+  }
+}
