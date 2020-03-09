@@ -271,26 +271,27 @@ const Contact = props => {
     React.createElement("p", { className: "subtitle" },
    
     React.createElement("div", { className: "social" },
-    React.createElement("a", {
-      href: "https://api.whatsapp.com/send?phone=51924061581",
-      target: "_blank",
-      rel: "noopener noreferrer",
-      title: "Link to author's Twitter profile" },
-
-    '',
-    React.createElement("i", { className: "fa fa-phone" }),'  924061581'),
-   
-    
-    React.createElement("a", {
+    React.createElement("a",{
+     
       href: "mailto:vanesagarro97@gmail.com",
       target: "_blank",
       rel: "noopener noreferrer",
       title: "Link to author's Twitter profile" },
 
-    
-    React.createElement("i", { className: "fa fa-envelope" }) ,'  vanesagarro97@gmail.com'),
+    '',
+    React.createElement("i", { className: "fa fa-envelope" }),' vanesagarro97@gmail.com ' ),
    
-)))))))
+    React.createElement("p",{ className: "social" },
+    React.createElement("a",{
+      href: "https://api.whatsapp.com/send?phone=51924061581",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      title: "Link to author's Twitter profile" },
+
+    
+    React.createElement("i", { className: "fa fa-phone" }) ,' 924061581')),
+   
+  )))))))
 
 
 };

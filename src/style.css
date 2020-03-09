@@ -225,7 +225,14 @@ a:active {
   font-size: 1.5rem;
   padding: .2rem;
 }
+.social {
+  padding: 1rem 0 0 .5rem;
+}
 
+.social a {
+  font-size: 1.5rem;
+  padding: .2rem;
+}
 .menu-container a,
 .menu-container a:visited {
   color: #fafafa;
@@ -888,7 +895,9 @@ a:active {
   vertical-align: middle;
   margin-left: .5rem;;
 }
-
+.social{
+  padding-left: 0px;
+}
 
 @media only screen and (max-width: 1149px) {
   #projects .project {
@@ -976,7 +985,9 @@ a:active {
 
 .heading-wrapper .heading .subtitle {
   font-size: 1.4rem;
+ 
 }
+
 
 #contact-form {
   margin-top: 1rem;
