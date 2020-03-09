@@ -215,7 +215,7 @@ const Projects = props => {
     React.createElement("div", { className: "projects-wrapper" },
     React.createElement(Project, {
       title: "Data Lovers - Harry Potter",
-      img: '../img/harrypotter.png',
+      img: '../img/harrypotter.PNG',
       tech: "js css html",
       link: "",
       repo: "https://github.com/VanesaGarro/LIM011-data-lovers" },
@@ -230,7 +230,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Red Social - My FitnesSpace.",
-      img: '../img/fitnesSpace.png',
+      img: '../img/fitnesSpace.PNG',
       tech: "js firebase css html",
       link: "https://vanesagarro.github.io/LIM011-fe-social-network/src/",
       repo: "https://github.com/VanesaGarro/LIM011-fe-social-network" },
@@ -245,7 +245,7 @@ const Projects = props => {
 
     React.createElement(Project, {
       title: "Md-Links.",
-      img:'../img/md.png',
+      img:'../img/md.PNG',
       tech: "js node",
       link: "https://vanesaGarro-personal-library.glitch.me/",
       repo: "https://github.com/vanesaGarro/fcc-personal-library" },
