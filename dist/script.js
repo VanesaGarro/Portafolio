@@ -220,7 +220,7 @@ const Projects = props => {
       link: "",
       repo: "https://github.com/VanesaGarro/LIM011-data-lovers" },
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, CSS + Bulma, React.js and React Router."),
+    React.createElement("small", null, "Creado con Javascript, Css3 y Html5"),
 
 
     React.createElement("p", null, "Página web dirigida para los jugadores de Harry Potter: Wizards Unite que deseen ver de una forma dinámica lascarácteristicas principales de sus personajes favoritos.")),
@@ -235,10 +235,10 @@ const Projects = props => {
       link: "https://vanesagarro.github.io/LIM011-fe-social-network/src/",
       repo: "https://github.com/VanesaGarro/LIM011-fe-social-network" },
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug."),
+    React.createElement("small", null, "Creado con Javascript, Css3 , Html5 y Firebase"),
 
 
-    React.createElement("p", null, "Red social para personas que deseen compartir las acividades que realizan para tener una vida saludable.")),
+    React.createElement("p", null, "Red social para personas que deseen compartir las acividades que realizan para tener un estilo de vida saludable.")),
 
 
 
@@ -250,7 +250,7 @@ const Projects = props => {
       link: "https://vanesaGarro-personal-library.glitch.me/",
       repo: "https://github.com/vanesaGarro/fcc-personal-library" },
 
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery, CSS + Bootstrap and Pug."),
+    React.createElement("small", null, "Creado con Javascript y Node.js"),
     React.createElement("p", null, "Librería para extraer los links de archivos markdown que valida el estado de cada link encontrado.")),
  
     )))))};
@@ -268,9 +268,29 @@ const Contact = props => {
 
 
     React.createElement("p", { className: "separator" }),
-    React.createElement("p", { className: "subtitle" }, "vanesagarro97@gmail.com",
+    React.createElement("p", { className: "subtitle" },
+   
+    React.createElement("div", { className: "social" },
+    React.createElement("a", {
+      href: "https://api.whatsapp.com/send?phone=51924061581",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      title: "Link to author's Twitter profile" },
+
     '',
-))))))
+    React.createElement("i", { className: "fa fa-phone" }),'  924061581'),
+   
+    
+    React.createElement("a", {
+      href: "mailto:vanesagarro97@gmail.com",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      title: "Link to author's Twitter profile" },
+
+    
+    React.createElement("i", { className: "fa fa-envelope" }) ,'  vanesagarro97@gmail.com'),
+   
+)))))))
 
 
 };
