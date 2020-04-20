@@ -238,7 +238,7 @@ const Projects = props => {
     React.createElement("small", null, "Creado con Javascript, Css3 , Html5 y Firebase"),
 
 
-    React.createElement("p", null, "Red social para personas que deseen compartir las acividades que realizan para tener un estilo de vida saludable.")),
+    React.createElement("p", null, "Red social para personas que deseen compartir las actividades que realizan para tener un estilo de vida saludable.")),
 
 
 
