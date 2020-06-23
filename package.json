@@ -1,8 +1,7 @@
 {
   "name": "portfolio-page",
   "version": "1.0.0",
-  "homepage": "https://github.com/VanesaGarro/Portafolio",
-  "description": "_A Pen created at CodePen.io. Original URL: [https://codepen.io/yagoestevez/pen/oapQEJ](https://codepen.io/yagoestevez/pen/oapQEJ).",
+  "homepage": "https://github.com/VanesaGarro/Portafolio/",
   "main": "index.js",
   "scripts": {
     "predeploy": "npm run build",
