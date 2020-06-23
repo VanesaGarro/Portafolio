@@ -217,7 +217,7 @@ const Projects = props => {
       title: "Data Lovers - Harry Potter",
       img: '../img/harrypotter.jpg',
       tech: "js css html",
-      link: "",
+      link: "https://vanesagarro.github.io/LIM011-data-lovers/src/#",
       repo: "https://github.com/VanesaGarro/LIM011-data-lovers" },
 
     React.createElement("small", null, "Creado con Javascript, Css3 y Html5"),
