@@ -241,19 +241,22 @@ const Projects = props => {
     React.createElement("p", null, "Red social para personas que deseen compartir las actividades que realizan para tener un estilo de vida saludable.")),
 
 
-
-
     React.createElement(Project, {
-      title: "Md-Links.",
-      img:'../img/md.jpg',
-      tech: "js node",
-      link: "https://vanesaGarro-personal-library.glitch.me/",
-      repo: "https://github.com/vanesaGarro/fcc-personal-library" },
+      title: "Réplica de Pinterest",
+      img:'../img/pinterest.jpg',
+      tech: "js react bootstrap Unsplash Image API",
+      link: "https://vanesagarro.github.io/LIM-banco-de-proyectos/",
+      repo: "https://github.com/VanesaGarro/LIM-banco-de-proyectos" },
 
-    React.createElement("small", null, "Creado con Javascript y Node.js"),
-    React.createElement("p", null, "Librería para extraer los links de archivos markdown que valida el estado de cada link encontrado.")),
- 
-    )))))};
+    React.createElement("small", null, "Creado con Javascript, React, Bootstrap y Unplash Image Api"),
+    React.createElement("p", null, "Replica de pinterest, donde puedes buscar imágenes y visualizar su información en una ventana modal.")),
+    ))))
+    
+    )
+  
+  
+  
+  };
 /***********************
      Contact Component
     ***********************/
